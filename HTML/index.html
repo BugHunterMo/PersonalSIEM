@@ -11,25 +11,28 @@
     <script src="../JavaScript/main.js"></script>
 </head>
 <body>
-    <div id="FirstBar">
-        <h1>bar</h1>
-        <ul>
-            <li>Home</li>
-            <li>Setting</li>
-            <li>Help/Report</li>
-            <li>account</li> <!-- كل واحده من دول هتبقى رابط و هنحطها فى صف فى bar-->
+    <nav id="FirstBar">
+        <ul id="FirstBarLeft">
+            <li><a class="navbar" href="index.html">Home</a></li>
+            <li><a class="navbar" href="setting.html">Setting</a></li>
+            <li><a class="navbar" href="help.html">Help/Report</a></li>
+            <li><a class="navbar" href="account.html">account</a></li> <!-- كل واحده من دول هتبقى رابط و هنحطها فى صف فى bar-->
         </ul>
-    </div>
+        <ul id="FirstBarRight">
+            <li><a class="navbar" href="login.html">login</a></li>
+            <li><a class="navbar" href="signup.html">sign up</a></li>
+        </ul>
+    </nav>
     <div>
-        <h1>Your Balance</h1>
+        <h1><center>Your Balance</center></h1>
         <script>document.write(Balance)</script>
     </div>
     <div>
-        <h1 javascript:onclick="https://">Transaction</h1>
+        <center><h1 javascript:onclick="https://">Transaction</h1></center>
 
     </div>
-    <div>
+    <footer>
         <h1>© 2026 [Mohamed, Abdallah, Yossef]. All rights reserved.</h1>
-    </div>
+    </footer>
 </body>
 </html>

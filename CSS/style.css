@@ -1,3 +1,32 @@
 #FirstBar{
+    display: flex;
+    justify-content: space-between;
+}
+#FirstBarLeft{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+#FirstBarRight{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.navbar{
+    text-decoration:none;
+}
+
+
+footer{
+    margin: 0;
+    padding: 20px;
     text-align: center;
+    width: 100%;
+    color: #888;
+    font-size: 11px;
+    /* background-color: ; */
 }
